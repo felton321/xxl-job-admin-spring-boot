@@ -1,0 +1,14 @@
+2018-07-28 21:07:44,254 [Thread-6] ERROR c.x.j.a.c.t.JobRegistryMonitorHelper 83 - job registry instance error:{}
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.xxl.job.admin.core.thread.JobRegistryMonitorHelper$1.run(JobRegistryMonitorHelper.java:81)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-28 21:07:44,256 [Thread-7] ERROR c.x.j.a.c.t.JobFailMonitorHelper 79 - job monitor error:{}
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:340)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.xxl.job.admin.core.thread.JobFailMonitorHelper$1.run(JobFailMonitorHelper.java:77)
+	at java.lang.Thread.run(Thread.java:748)

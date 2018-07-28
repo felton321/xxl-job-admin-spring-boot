@@ -1,0 +1,29 @@
+spring:
+  zipkin:
+    enabled: false
+
+### xxl-job db
+xxl.job.db:
+   driverClass: com.mysql.jdbc.Driver
+   url: jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+   user: root
+   password: passw0rd
+
+### xxl-job email
+xxl.job.mail:
+   host: smtp.xyz.cn
+   port: 25
+   username: monitor@xyz.cn
+   password: passw0rd
+   sendNick: 《任务调度平台》
+
+### xxl-job login
+xxl.job.login:
+   username: admin
+   password: 123456
+
+### xxl-job, access token
+xxl.job.accessToken:
+
+### xxl-job, i18n (default empty as chinese, "en" as english)
+xxl.job.i18n:
