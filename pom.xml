@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>xxl-job-admin</name>
-	<description>Demo project for Spring Boot</description>
+	<description>xxl-job-admin-spring-boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

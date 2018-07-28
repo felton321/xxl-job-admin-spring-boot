@@ -3,7 +3,7 @@
 
     <contextName>logback-eureka</contextName>
 
-    <property name="appname" value="framework-batch-admin"></property>
+    <property name="appname" value="xxl-job-admin"></property>
     <property name="logdir" value="./logs"></property>
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
