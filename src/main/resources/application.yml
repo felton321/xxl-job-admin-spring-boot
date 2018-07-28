@@ -31,13 +31,4 @@ spring:
     template-loader-path: classpath:/template/
 
 
-rest:
-  log:
-    server:
-       print-request-threshold: 11
-       print-response: true
-    client:
-       print-request-threshold: 11
-       print-response: true
-
 
